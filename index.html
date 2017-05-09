@@ -1,0 +1,349 @@
+<!doctype html>
+ <html>
+ <head>
+
+  <meta charset="utf-8">
+  <title>Batalla de Puebla</title>
+  
+  
+   <!--grupo CSS-->
+   <link rel="stylesheet" href="css/tema-app6.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo JavaScript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+  <script src="phonegap.js"></script>
+   <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+   <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ </head>
+
+ <body onLoad="MM_preloadImages('imagenes/Decreto.jpg','imagenes/Simbolico.jpg','imagenes/Marcha.jpg','imagenes/Animacion.jpeg','imagenes/Representacion.jpg')">
+ 
+ <div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1>Batalla de Puebla</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   </div>
+   <div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/animacion.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/batallarep.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/conmemora.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/fuertes.png" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/loreto.jpg" alt="" title="" id="wows1_4"/></li>
+		<li><img src="data1/images/marcha.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/repr.jpg" alt="http://wowslider.com/" title="" id="wows1_6"/></a></li>
+		<li><img src="data1/images/sitio.jpg" alt="" title="" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/animacion.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batallarep.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/conmemora.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/fuertes.png" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/loreto.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/marcha.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/repr.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/sitio.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Historia de la Batalla de Puebla</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Antecedentes de la Batalla de Puebla</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Historia de la Batalla del 4 de Mayo (Atlixco)</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Consecuencias de la Batalla de Puebla</h2>
+     </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>5 Datos interesantes alrededor de la Batalla de Puebla</h2>
+     </a>
+    </li>
+    </ul>
+   </div>
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+     <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <div>
+     <h4>Aplicacion Seis</h4>
+     <h4>Cesar Armando Herrera Olmedo</h4>
+    </div>
+   </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Historia de la Batalla de Puebla</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+      <h2>Antes del 5 de Mayo, el día  28 de abril de 1862 tuvo lugar un enfrentamiento conocido como
+la Batalla de las Cumbres entre el Ejército Expedicionario Francés y el Ejército
+Mexicano. En este conflicto hubieron cerca de 500 bajas francesas en contra de
+apenas 50 bajas mexicanas. Pese a esto, el Ejército Expedicionario francés consigue
+hacerse con el control del Paso de Acultzingo.<br>
+Después de la Batalla de las Cumbres el conde de Lorencez conservaba su confianza
+y mandó a decir a Napoleon III que: “Somos tan superiores a los mexicanos en
+organización, disciplina, raza, moral y refinamiento de sensibilidades, que le
+ruego anunciarle a Su Majestad Imperial, Napoleón III, que a partir de este
+momento y al mando de nuestros 6,000 valientes soldados, ya soy dueño de México”<br>
+El 2 de mayo parte el Ejército Expedicionario Francés desde San Agustín del
+Palmar en Veracruz con rumbo para cruzar la Sierra Madre Oriental y dirigirse
+hacia Puebla ya que era paso obligado para llegar a la capital del país.<br>
+Lee más acerca de este acontecimiento histórico en el siguiente botón:</h2>
+      <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image40','','imagenes/Representacion.jpg',1)"><img src="imagenes/Aniversario.png" width="371" height="117" id="Image40"></a></p>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" data-role="button" id="Puebla">
+    <h2>Ir a</h2>
+   </a>
+  </li>
+ </ul>
+ </div>
+</div>
+     </div>
+    </div>
+    <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+    <img src="res/android/mdpi.png" width="46" height="46">
+     <h4>Aplicacion Seis</h4>
+     <h4>Cesar Armando Herrera Olmedo</h4>
+    </div>
+   </div>
+   
+   
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>Antecedentes de la Batalla de Puebla</h1>
+     </div>
+     <div data-role="content" align="center">
+      <div>
+       <h2>En octubre de 1861, Francia, Inglaterra y España suscribieron la Convención de Londres, en la cual se comprometieron a enviar contingentes militares a México ya que este tenía una gran deuda de 80 millones de pesos, aproximadamente eran 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia.
+
+La alianza tripartita amenazó al presidente Benito Juarez con una invasión inminente si no se saldaba por completo las deudas que México tenía con los tres países europeos.
+
+Juarez responde con un exhorto para  lograr un arreglo amistoso, y los invitó a conferenciar. Sin embargo, sabía que había una guerra inminente y trató de proteger la Ciudad de México trasladando pertrechos y  ordenó la fortificación de Puebla. Creo al Ejército de Oriente y el hombre que se designó en el mando fue el general Ignacio Zaragoza.
+
+En un principio la Alianza Tripartita aceptó el llamado al diálogo de Benito Juarez y sus representantes se reunieron con Manuel Doblado, ministro de Relaciones Exteriores del gobierno mexicano, quien consiguió que Juan Prim, representante español, y Lord John Russell por Inglaterra se retiraran. A este acuerdo se le conoce como los Tratados Preliminares de la Soledad.</h2>
+       <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/Decreto.jpg',1)"><img src="imagenes/Tratado.JPG" width="198" height="254" id="Image11"></a></p>
+       <br>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.historiacultural.com/2011/05/batalla-puebla-5-de-mayo.html" data-role="button" id="Atlixco">
+    <h2>Conoce más</h2>
+   </a>
+  </li>
+ </ul>
+ </div>
+</div>
+      </div>
+     </div>
+     <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+     <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Cesar Armando Herrera Olmedo</h4>
+     </div>
+    </div>
+     
+     
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Batalla del 4 de Mayo (Atlixco)</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2><pre>La Batalla de Atlixco tuvo
+lugar el 4 de mayo de 1862 en las
+inmediaciones de la Hacienda de las
+Traperas en Atlixco en el estado de
+Puebla, México, entre elementos del
+ejército mexicano de la república,
+al mando de los generales Antonio
+Carvajal y Tomás O'Horan contra las
+tropas al servicio del Segundo Imperio
+Mexicano comandadas por el general
+José María Cobos y de Leonardo
+Márquez, compuesta de soldados
+conservadores mexicanos en apoyo
+de envío de refuerzos para llevar
+a cabo la Batalla de Puebla, durante
+la Segunda Intervención Francesa en México.<br>
+Esta batalla culminó con una victoria
+republicana y debido a esto el grupo
+conservador de Márquez no pudo lograr
+su objetivo de auxiliar a las tropas
+francesas del Conde de Lorencez en la
+batalla de Puebla.</pre></h2><br>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.tribunanoticias.mx/atlixco-conmemora-el-hecho-historico-de-la-batalla-del-4-de-mayo/" data-role="button" id="Atlixco">
+    <h2>Leer más</h2>
+   </a>
+  </li>
+ </ul>
+ </div>
+</div>
+
+       </div>
+      </div>
+      <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false" align="center">
+    <h1>Lugar</h1>
+     <div>
+      <p>Atlixco</p>
+      <br>
+     </div>
+     <div>
+      <img src="imagenes/Atlixco.jpg" width="74%" height="27%">
+     </div>
+    </div>
+   </div>
+      <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+      <img src="res/android/mdpi.png" width="46" height="46">
+       <h4>Aplicacion Seis</h4>
+       <h4>Cesar Armando Herrera Olmedo</h4>
+      </div>
+ </div>
+      
+      
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Consecuencias de la Batalla de Puebla</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div>
+        <h2>En Palacio Nacional en la Ciudad de México se sabía poco acerca del conflicto más allá del telegrama recibido a las 12:30 en el que Zaragoza avisaba que el intercambio de fuego había iniciado. A raíz de la incertidumbre el gobierno había hecho salir precipitadamente al general Florencio Antillón al mando de los Batallones de Guanajuato, quedando como guardianes de la capital sólo 2,000 hombres del Regimiento de Coraceros Capitalinos
+
+A las 4:15 de la tarde finalmente se recibió un nuevo telegrama:...</h2>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/Simbolico.jpg',1)"><img src="imagenes/Puebla.png" width="270" height="287" id="Image30"></a></p>
+        <!--<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image27','','imagenes/Marcha.jpg',1)"><img src="imagenes/Animacion.jpeg" width="388" height="177" id="Image27"></a></p>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image28','','imagenes/Animacion.jpeg',1)"><img src="imagenes/Marcha.jpg" width="300" height="214" id="Image28"></a></p>-->
+        <br>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:30%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" data-role="button" id="Antecedente">
+    <h2>Leer más</h2>
+   </a>
+  </li>
+ </ul>
+ </div>
+</div>
+       </div>
+      </div>
+     <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+     <img src="res/android/mdpi.png" width="46" height="46">
+      <h4>Aplicacion Seis</h4>
+      <h4>Cesar Armando Herrera Olmedo</h4>
+     </div>
+     </div>
+     
+     
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+       <h1>Datos Interesantes</h1>
+      </div>
+      <div data-role="content" align="center">
+       <div> 
+        <h2><pre>1. El 5 de septiembre de 1862, todavía 
+acuartelado en Puebla,el general Zaragoza contrajo 
+tifo y falleció tres días después.<br>
+2. El general conservador Miguel Negrete,
+abandonó al partido conservador y se puso
+a disposición de Zaragoza con la siguiente
+frase: “Yo tengo patria antes que partido.”<br>
+3. El Ejército Mexicano ganó esta Batalla 
+pero el Ejército Francés atacó nuevamente
+a Puebla con  refuerzos y mejores estrategias
+dando como resultado una victoria que 
+desembocaría en el posterior establecimiento
+del Segundo Imperio Mexicano.<br>
+4. Benito Juarez se vio obligado a moverse
+a otras ciudades pues los franceses estaban
+en constante acecho y habían ocupado la
+capital. Las ciudades ocupadas por Juarez 
+fueron: San Luis Potosí, Monterrey, Saltillo,
+Chihuahua y Paso del Norte. Al final de la
+guerra en contra de Francia, México logró
+vencer y en honor a Juarez es que Paso
+del Norte cambió de nombre a lo que hoy
+conocemos como Ciudad Juarez.<br>
+5. Los franceses se retiraron
+incondicionalmente del país en 1867.</pre></h2>
+       </div>
+       </div>
+       <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false" align="center">
+    <h1>Personaje</h1>
+     <div>
+     <p>General Ignacio Zaragoza<p/>
+     </div>
+     <div>
+       <p><img src="imagenes/ignacio-zaragoza.jpg" width="67%" height="22%" align="middle"></p>
+     </div>
+    </div>
+    </div>
+      <div data-role="footer" data-theme="a" data-position="fixed" align="center">
+      <img src="res/android/mdpi.png" width="46" height="46">
+       <h4>Aplicacion Seis</h4>
+       <h4>Cesar Armando Herrera Olmedo</h4>
+      </div>
+     </div>
+
+
+
+</body>
+</html>
